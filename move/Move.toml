@@ -1,0 +1,16 @@
+[package]
+name = "kingcoin"
+version = "1.0.0"
+authors = []
+
+[addresses]
+kingcoin='97dbcf87a0a75b05e09a26581f2c43c5b4fa59bc1f92cfca1e0a6dc4b90e5ca0'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
